@@ -1,19 +1,24 @@
+/* Body Style */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif; /* updated font */
     margin: 20px;
+    background: linear-gradient(45deg, #6190e8, #a7bfe8); /* added gradient background */
 }
 
+/* App Style */
 #app {
     max-width: 600px;
     margin: 0 auto;
 }
 
+/* Checklist Item Style */
 .checklist-item {
     margin-bottom: 10px;
     display: flex;
     align-items: center;
 }
 
+/* Checklist Item Input Style */
 .checklist-item input {
     margin-right: 10px;
 }
